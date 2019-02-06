@@ -768,7 +768,11 @@ focus_tree = {
 		}
 		x = 34
 		y = 6
-
+        completion_reward = {
+		ARR = {
+			country_event = { id = shi_startup.7 }	
+		}
+		}
 	}
 	focus = {
 		id = shi_attack_bos
