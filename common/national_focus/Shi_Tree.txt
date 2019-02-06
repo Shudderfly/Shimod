@@ -711,6 +711,9 @@ focus_tree = {
 					amount = 60
 				}
 			}
+		BOS = {
+				country_event = { id = shi_startup.5 }	
+		}
 		}
 
 	}
