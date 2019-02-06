@@ -1,0 +1,7 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SHI = { country_event = { id = shi_startup.1 } }
+		}
+	}
+}
