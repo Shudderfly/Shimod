@@ -813,6 +813,7 @@ focus_tree = {
 		id = shi_rebuild_sanfran
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 8.6
+		available = { 473 = { is_owned_and_controlled_by = SHI } }
 		prerequisite = {
 			focus = shi_demand_sanfran
 		}
