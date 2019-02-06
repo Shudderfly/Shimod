@@ -402,7 +402,8 @@ focus_tree = {
             ideology = elites
             popularity = 0.05 
 			}
-			add_ideas = SHI_noaddicts
+			add_ideas = shi_noaddicts
+			add_stability = 0.05
 		}
 
 	}

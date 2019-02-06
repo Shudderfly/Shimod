@@ -283,7 +283,7 @@ ideas = {
     }
 
     SHI_expandempire = {
-      picture = G
+      picture = salvaged_military_industry
       
       allowed = {
       }
@@ -294,7 +294,7 @@ ideas = {
         justify_war_goal_time = -0.2
       }
     }
-	SHI_noaddicts = {
+	shi_noaddicts = {
         picture = VEG_Good_Business
             
         allowed = {
@@ -308,8 +308,7 @@ ideas = {
         removal_cost = -1
 
         modifier = {
-			add_stability = 0.05
-            consumer_goods_factor = -.05
+            consumer_goods_factor = -0.05
         }
     }
   }
