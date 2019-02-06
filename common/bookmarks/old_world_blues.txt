@@ -208,6 +208,7 @@ bookmarks = {
 			history = "SHI_OWB_DESC"
 			ideology = ruler
 			ideas = {
+			settler_nation
 			}
 			focuses = {
 			shi_military_1
