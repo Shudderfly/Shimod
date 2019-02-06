@@ -71,4 +71,30 @@ country_event = {
     name = shi.2.b
     add_ideas = SHI_englishlanguage
     }
-   }
+}
+country_event = {
+	id = shi_startup.5
+	title = shi.5.t
+	desc = shi.5.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		name = shi.5.a
+			transfer_state = 473
+			transfer_state = 132
+			transfer_state = 104
+		157 = {
+				add_resource = {
+					type = metal
+					amount = 60
+				}
+		}
+	}
+		option = {
+		name = shi.5.b
+		create_wargoal = {
+				type = annex_everything
+				target = BOS
+			}
+		}
+	}
