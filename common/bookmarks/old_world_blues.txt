@@ -188,16 +188,6 @@ bookmarks = {
 				vault_festus_1
 			}
 		}
-	    "SHI" = {
-			minor = yes
-			history = "SHI_OWB_DESC"
-			ideology = ruler
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
 		"KHA" = {
 			minor = yes
 			history = "KHA_OWB_DESC"
@@ -211,6 +201,18 @@ bookmarks = {
 				KHA_focus_avenge_bittersprings
 				KHA_focus_the_secrets_of_vault_22
 				KHA_focus_join_the_legion
+			}
+		}
+	    "SHI" = {
+			minor = yes
+			history = "SHI_OWB_DESC"
+			ideology = ruler
+			ideas = {
+			}
+			focuses = {
+			shi_military_1
+			shi_politics
+			shi_expansion
 			}
 		}
 
