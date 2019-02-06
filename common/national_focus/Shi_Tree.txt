@@ -912,6 +912,7 @@ focus_tree = {
 			focus = shi_attack_newvic
 		}
 		available = {
+			420 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 39
 		y = 5
@@ -934,12 +935,7 @@ focus_tree = {
 			focus = shi_attack_newvic
 		}
 		available = {
-			NOT = {
-				country_exists = VIC
-			}
-			any_owned_state = {
-				is_core_of = VIC
-			}
+			420 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 41
 		y = 5
@@ -964,10 +960,7 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 8.6
 		prerequisite = {
-			focus = shi_modernise_newvic
-		}
-		prerequisite = {
-			focus = shi_exploit_newvic
+			focus = shi_attack_newvic
 		}
 		x = 40
 		y = 6
@@ -1009,12 +1002,7 @@ focus_tree = {
 			focus = shi_attack_hadia
 		}
 		available = {
-			NOT = {
-				country_exists = HAI
-			}
-			any_owned_state = {
-				is_core_of = HAI
-			}
+			9 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 39
 		y = 7
@@ -1048,12 +1036,7 @@ focus_tree = {
 			focus = shi_attack_hadia
 		}
 		available = {
-			NOT = {
-				country_exists = HAI
-			}
-			any_owned_state = {
-				is_core_of = HAI
-			}
+			9 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 41
 		y = 7
@@ -1080,10 +1063,7 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 8.6
 		prerequisite = {
-			focus = shi_modernise_hadia
-		}
-		prerequisite = {
-			focus = shi_exploit_hadia
+			focus = shi_attack_hadia
 		}
 		x = 40
 		y = 8
@@ -1541,12 +1521,7 @@ focus_tree = {
 			focus = shi_attack_broken
 		}
 		available = {
-			NOT = {
-				country_exists = BRK
-			}
-			any_owned_state = {
-				is_core_of = BRK
-			}
+			492 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 39
 		y = 9
@@ -1572,12 +1547,7 @@ focus_tree = {
 			focus = shi_attack_broken
 		}
 		available = {
-			NOT = {
-				country_exists = BRK
-			}
-			any_owned_state = {
-				is_core_of = BRK
-			}
+			262 = { is_owned_and_controlled_by = SHI }
 		}
 		x = 41
 		y = 9
