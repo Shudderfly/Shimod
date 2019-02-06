@@ -1,6 +1,49 @@
 ﻿add_namespace = shi_startup
 
 country_event = {
+	id = shi_startup.1
+	title = shi_startup.1.t
+	desc = shi_startup.1.d
+	#picture = <stuff>
+
+	is_triggered_only = yes #only triggered by on_startup on_action
+	hidden = yes #makes the event hidden to teh player
+
+	immediate = {
+        SHI = {
+            create_country_leader = {
+                name = "Yui Lan"
+                desc = SHI_DESC
+                picture = "gfx/leaders/yui.dds"
+                expire = "3000.1.1"
+                ideology = militarist_oligarchy
+                traits = {}
+            }
+            create_country_leader = {
+                name = "Nian Hung"
+                desc = SHI_DESC
+                picture = "gfx/leaders/nian.dds"
+                expire = "3000.1.1"
+                ideology = peoples_militia
+                traits = {}
+            }
+            create_country_leader = {
+                name = "Elder Platner"
+                desc = SHI_DESC
+                picture = "gfx/leaders/BOS/Portrait_Scribe.dds"
+                expire = "3000.1.1"
+                ideology = technocracy
+                traits = {}
+            }
+        }
+    }
+
+	option = {
+		name = shi_startup.1.a
+	}
+}
+
+country_event = {
     id = shi_startup.2
     title = shi.0.t
     desc = shi.0.d
@@ -71,45 +114,4 @@ country_event = {
     name = shi.2.b
     add_ideas = SHI_englishlanguage
     }
-}
-country_event = {
-	id = shi_startup.5
-	title = shi.5.t
-	desc = shi.5.desc
-	fire_only_once = yes
-	is_triggered_only = yes
-		option = {
-		name = shi.5.a
-			transfer_state = 473
-			transfer_state = 132
-			transfer_state = 104
-		157 = {
-				add_resource = {
-					type = metal
-					amount = 60
-				}
-		}
-	}
-		option = {
-		name = shi.5.b
-		SHI = {
-		country_event = {
-			{ shi_startup.6 }
-				}
-			}
-		}
-	}
-country_event = {
-	id = shi_startup.6
-	title = shi.6.t
-	desc = shi.6.desc
-	fire_only_once = yes
-	is_triggered_only = yes
-		option = {
-		name = shi.6.a
-		create_wargoal = {
-				type = annex_everything
-				target = BOS
-				}
-			}
-		}
+   }

@@ -273,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = shi_republic
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_concessions
 		cost = 8.6
 		prerequisite = {
 			focus = shi_politics
@@ -347,7 +347,7 @@ focus_tree = {
 	}
 	focus = {
 		id = shi_triad
-		icon = GFX_goal_unknown
+		icon = GFX_goal_NCR_Drummund
 		cost = 8.6
 		prerequisite = {
 			focus = shi_politics
@@ -702,10 +702,20 @@ focus_tree = {
 		x = 34
 		y = 4
 		completion_reward = {
-			BOS = {
-				country_event = { id = shi_startup.5 }
+			transfer_state = 473
+			transfer_state = 132
+			transfer_state = 104
+			157 = {
+				add_resource = {
+					type = metal
+					amount = 60
+				}
 			}
+		BOS = {
+				country_event = { id = shi_startup.5 }	
 		}
+		}
+
 	}
 	focus = {
         id = shi_fortify_sanfran
