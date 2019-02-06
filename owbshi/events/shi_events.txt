@@ -92,9 +92,11 @@ country_event = {
 	}
 		option = {
 		name = shi.5.b
-		create_wargoal = {
-				type = annex_everything
-				target = BOS
+		country_event = { shi_startup.6 }
 			}
 		}
+country_event = {
+	id = shi_startup.6
+	title = shi.6.t
+	desc = shi.6.desc
 	}
