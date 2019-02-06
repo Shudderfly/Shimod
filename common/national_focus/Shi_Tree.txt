@@ -702,21 +702,11 @@ focus_tree = {
 		x = 34
 		y = 4
 		completion_reward = {
-			transfer_state = 473
-			transfer_state = 132
-			transfer_state = 104
-			157 = {
-				add_resource = {
-					type = metal
-					amount = 60
-				}
-			}
 		BOS = {
-				country_event = { id = shi_startup.5 }	
+			country_event = { id = shi_startup.5 }	
 		}
-		}
-
 	}
+}
 	focus = {
         id = shi_fortify_sanfran
         icon = GFX_goal_generic_fortify_city
