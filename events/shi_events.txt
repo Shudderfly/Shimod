@@ -80,9 +80,11 @@ country_event = {
 	is_triggered_only = yes
 		option = {
 		name = shi.5.a
+			SHI = {
 			transfer_state = 473
 			transfer_state = 132
 			transfer_state = 104
+		}
 		157 = {
 				add_resource = {
 					type = metal
@@ -112,38 +114,6 @@ country_event = {
 				target = BOS
 				}
 			}
+
 		}
-	country_event = {
-	id = shi_startup.7
-	title = shi.7.t
-	desc = shi.7.desc
-	fire_only_once = yes
-	is_triggered_only = yes
-		option = {
-		ai_chance = { factor = 100 }
-		name = shi.7.a
-         SHI = { 			transfer_state = 32
-		 }
-		}
-		option = {
-		   name = shi.7.b
-		   SHI = {
-			     country_event = { id = shi_startup.8 }	
-		   }
-		}
-    }
-	country_event = {
-	id = shi_startup.8
-	title = shi.8.t
-	desc = shi.8.desc
-	fire_only_once = yes
-	is_triggered_only = yes
-		option = {
-		name = shi.8.a
-             	create_wargoal = {
-				    type = annex_everything
-				    target = ARR
-				}
-		}
-    }
-		
+>>>>>>> eb13edbd4d40868c4cf11e634dc19abf2d55d346
