@@ -908,21 +908,16 @@ focus_tree = {
 			focus = shi_attack_newvic
 		}
 		available = {
-			NOT = {
-				country_exists = VIC
-			}
-			any_owned_state = {
-				is_core_of = VIC
-			}
 		}
 		x = 39
 		y = 5
 		completion_reward = {
-			420 = {
+			420 = {	
 				add_resource = {
 					type = advanced_technology
 					amount = 8
 				}
+				set_state_name = "New Nanjing"
 			}
 		}
 
@@ -950,6 +945,12 @@ focus_tree = {
 					type = metal
 					amount = 10
 				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = VIC
+				}
+				add_core_of = SHI
 			}
 		}
 
@@ -1026,6 +1027,12 @@ focus_tree = {
 					amount = 10
 				}
 			}
+	    	every_state = {
+				limit = {
+					is_core_of = VIC
+				}
+				add_core_of = SHI
+			}
 		}
 
 	}
@@ -1051,7 +1058,9 @@ focus_tree = {
 				add_resource = {
 					type = fuel
 					amount = 10
+				set_state_name = "New Hangzhou"
 				}
+			set_state_name = "New Hangzhou"
 			}
 			163 = {
 				add_resource = {
