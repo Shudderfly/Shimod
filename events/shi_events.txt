@@ -1,0 +1,117 @@
+﻿add_namespace = shi_startup
+
+country_event = {
+	id = shi_startup.1
+	title = shi_startup.1.t
+	desc = shi_startup.1.d
+	#picture = <stuff>
+
+	is_triggered_only = yes #only triggered by on_startup on_action
+	hidden = yes #makes the event hidden to teh player
+
+	immediate = {
+        SHI = {
+            create_country_leader = {
+                name = "Yui Lan"
+                desc = SHI_DESC
+                picture = "gfx/leaders/yui.dds"
+                expire = "3000.1.1"
+                ideology = militarist_oligarchy
+                traits = {}
+            }
+            create_country_leader = {
+                name = "Nian Hung"
+                desc = SHI_DESC
+                picture = "gfx/leaders/nian.dds"
+                expire = "3000.1.1"
+                ideology = peoples_militia
+                traits = {}
+            }
+            create_country_leader = {
+                name = "Elder Platner"
+                desc = SHI_DESC
+                picture = "gfx/leaders/BOS/Portrait_Scribe.dds"
+                expire = "3000.1.1"
+                ideology = technocracy
+                traits = {}
+            }
+        }
+    }
+
+	option = {
+		name = shi_startup.1.a
+	}
+}
+
+country_event = {
+    id = shi_startup.2
+    title = shi.0.t
+    desc = shi.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+		option = {
+    name = shi.0.a
+    add_manpower = 500
+    add_ideas = SHI_colonysub
+	}
+		option = {
+    name = shi.0.b
+			163 = {
+				add_resource = {
+					type = electricity
+					amount = 30
+				}
+				add_resource = {
+					type = fuel
+					amount = 15
+				}
+			}
+		}	
+    	option = {
+    name = shi.0.c
+    add_ideas = SHI_commandsub
+    }
+}
+
+country_event = {
+    id = shi_startup.3
+    title = shi.1.t
+    desc = shi.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+		option = {
+    name = shi.1.a
+    163 = {
+		add_building_construction = {
+			type = bunker
+			level = 4
+			province = {
+			id = 1038
+				}
+			}
+		}
+	}
+    	option = {
+    name = shi.1.b
+    add_ideas = SHI_researchlab
+    }
+}
+
+country_event = {
+    id = shi_startup.4
+    title = shi.2.t
+    desc = shi.2.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+    	option = {
+    name = shi.2.a
+    add_ideas = SHI_chineselanguage
+	}
+    	option = {
+    name = shi.2.b
+    add_ideas = SHI_englishlanguage
+    }
+   }
