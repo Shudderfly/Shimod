@@ -294,22 +294,18 @@ ideas = {
         justify_war_goal_time = -0.2
       }
     }
-	SHI_noaddicts = {
-        picture = VEG_Good_Business
-            
-        allowed = {
-            always = no
-        }
-
-        allowed_civil_war = {
-             always = yes
-        }
-            
-        removal_cost = -1
-
-        modifier = {
-			add_stability = 0.05
-            consumer_goods_factor = -.05
-        }
-    }
-  }
+	SHI_bos_assit = {
+	picture = generic_research_bonus
+	allowed = {
+      }
+      
+    removal_cost = -1
+      
+    modifier = {
+		research_time_factor = -0.05
+		land_reinforcement_rate = 0.05
+		}
+	}
+}
+}
+>>>>>>> a836d83ef5d1d2fcde636d7298ba8e28782234b9
