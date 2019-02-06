@@ -80,9 +80,11 @@ country_event = {
 	is_triggered_only = yes
 		option = {
 		name = shi.5.a
+			SHI = {
 			transfer_state = 473
 			transfer_state = 132
 			transfer_state = 104
+		}
 		157 = {
 				add_resource = {
 					type = metal
@@ -111,17 +113,5 @@ country_event = {
 				type = annex_everything
 				target = BOS
 				}
-			}
-		}
-	country_event = {
-	id = shi_startup.7
-	title = shi.7.t
-	desc = shi.7.desc
-	fire_only_once = yes
-	is_triggered_only = yes
-		option = {
-		name = shi.7.a
-         SHI = { 			transfer_state = 32
-		 }
 			}
 		}
