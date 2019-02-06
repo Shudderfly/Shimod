@@ -1,0 +1,241 @@
+﻿l_english:
+
+shi_submarine:0 "The Shi-Huang-Ti"
+shi_submarine_desc:0 "The Shi-Huang-Ti was the submarine that saved our ancestors and beached us on San Francisco, but our historians question what type of submarine it was sent from China to create our society?"
+
+shi_our_survival:0 "The Husk"
+shi_our_survival_desc:0 "The Submarine that had saved us from atomic fire was badly damaged from beaching upon San Francisco Bay, from there we had to make a choice, dismantle it or refurbish it?"
+
+shi_language:0 "Our Language"
+shi_language_desc:0 "We know that education was virtually eliminated from the wasteland and had to make a crucial choice, do we stay with our native tongue or make our population speak the language of our neighbours?"
+
+shi_military:0 "Militarism"
+shi_military_desc:0 "We can no longer afford to be isolationist, as the Bear and Bull begin to lock horns and the Brotherhood continues to expand, we must adapt to the times."
+
+shi_military_1:0 "Crimson Army"
+shi_military_1_desc:0 "Although China's greatest advantage was sheer numbers, we will have to rely on our technology to fight."
+
+shi_air_force:0 "Crimson Air Force"
+shi_air_force_desc:0 "We are one of the few factions in the wasteland who can fully mobilise an air force, and we should prepare our city to accompany growing air traffic."
+
+shi_navy:0 "Crimson Navy"
+shi_navy_desc:0 "Although there are larger factions who have started to create their own navies, we are the ones who have had an edge for decades, its time we fully used it."
+
+shi_airbase:0 "San Francisco Airport"
+shi_airbase_desc:0 "Currently the San Francisco Airport is a empty husk of tarmac and destroyed buildings, if we are to intergrate air travel into our civilisation we will have to refurbish the airport."
+
+shi_stolen_secrets:0 "Secrets of Navarro"
+shi_stolen_secrets_desc:0 "The Chosen One granted us the blueprints of the Enclaves Vertibirds 30 years ago, yet our scouts have found so much more while picking over the remains of Navarro after they fell."
+
+shi_air_superiority:0 "Control the Skies"
+shi_air_superiority_desc:0 "Although not many factions have any form of air force, controlling the skies means our forces will have superiority in war."
+
+shi_symbol_of_america:0 "The Symbol of America"
+shi_symbol_of_america_desc:0 "The Vertibird was a symbol of Pre-War America, and their rebirth as the Enclave, using the plans we can now find out how to rebuild them."
+
+shi_chinese_airpower:0 "Chinese Airpower"
+shi_chinese_airpower_desc:0 "Total Airpower will solidfy our presence as a Wasteland Power."
+
+shi_xian_project:0 "The Xian Project"
+shi_xian_project_desc:0 "The Xian-85 was the main fighter of the People's Republic of China, and decimated Pre-War American fighters, we should reuse this fighter to solidify our hold on the skies."
+
+shi_rule_the_night:0 "Rule the Night"
+shi_rule_the_night_desc:0 "As a once famous storyteller once said, Power Armour Ruled the Day, but Chinese Operatives ruled the night."
+
+shi_hei_gui_reinvention:0 "Hei Gui Stealth Suits"
+shi_hei_gui_reinvention_desc:0 "There are multiple chinese stealth suits across America, and our scavengers have found enough for us to learn its secrets and make our own."
+
+shi_stealth_tactics:0 "Stealth Tactics"
+shi_stealth_tactics_desc:0 "Using the new Hei Gui Stealth Suits we can dominate our neighbours with Old World Might."
+
+shi_improved_plating:0 "Improved Plating"
+shi_improved_plating_desc:0 "Upon use, we have found several flaws in the plating old Stealth Suits used, with the prototype of our Polymeric Alloy in testing we can begin to improve the plating and defense of our troops."
+
+shi_ssof:0 "The SSOF"
+shi_ssof_desc:0 "The Shi Special Operations Force will be the special forces division of our forces, taking up the Pre-War name of the Crimson Dragoons and will lead us to glory!"
+
+shi_gauss_weaponry:0 "Gauss Weaponry"
+shi_gauss_weaponry_desc:0 "The Gauss rifle, also called a "coil gun", is a device used to propel a ferromagnetic projectile by accelerating it through a process of electromagnetic induction. Using these designs alongside our military will give it a much harder punch."
+
+shi_polymeric_combat_gear:0 "Polymeric Combat Gear"
+shi_polymeric_combat_gear_desc:0 "Polymeric Combat Armour that is resistant to both flame and penetration. It has taken us many years and the quality has had to be reduced for wide scale deployment, but will garentee our edge in the field."
+
+shi_americas_advantages:0 "America's Advantages"
+shi_americas_advantages_desc:0 "Theres no point in attempting to loot the wasteland for rare pieces of equipment when we are surrounded in what made America win at Anchorage, its time we used it for ourselves."
+
+shi_armoured_spearhead:0 "Armoured Spearhead"
+shi_armoured_spearhead_desc:0 "Power Armour combines the mobility of a soldier with the firepower of an entire squad, we should use it alongside our technology to help destroy our enemies."
+
+shi_atom_powered_machines:0 "Atom Powered Machines"
+shi_atom_powered_machines_desc:0 "Robots are prevalent across the wasteland, and can still fight, all it needs is programming, and we can retool our industry to make these robots as well."
+
+shi_american_tools:0 "American Tools"
+shi_american_tools_desc:0 "America won the Great War, but we will use the tools they used to beat us against them and carve out a new China!"
+
+shi_harbour:0 "San Francisco Harbour"
+shi_harbour_desc:0 "San Francisco Harbour has been left derelict since the Chosen One took the oil tanker and the vagrants moved on, if we are to develop a proper navy we must rebuild the harbour."
+
+shi_ancestors_navy:0 "Ancestors Navy"
+shi_ancestors_navy_desc:0 "Although we cannot make submarines, using smaller boats we can take over those who will want to control the waves."
+
+shi_rapid_navy:0 "Screening Navy"
+shi_rapid_navy_desc:0 "We will require larger screening ships alongside our smaller boats, and with designs from the submarine and new world adaptation we can quickly come up with better designs than our rivals."
+
+shi_old_blueprints:0 "Old Blueprints"
+shi_old_blueprints_desc:0 "Research the Shi-Haung-Ti has allowed us to use construction methods to quickly produce ships at a record pace."
+
+shi_heavy_navy:0 "Heavy Navy"
+shi_heavy_navy_desc:0 "If we are to dominate the seas, we must go with bigger ships with bigger firepower, We will rule the Pacific!"
+
+shi_conquer_seas:0 "Conquer the Seas"
+shi_conquer_seas_desc:0 "We have converted old barges left rotting in the harbour into floating platforms to carry our air forces to be used in naval combat."
+
+shi_pacific_jewel:0 "Pacific Jewel"
+shi_pacific_jewel_desc:0 "We have to rule the pacific in order to protect ourselves from any threat from the seas and beyond."
+
+shi_politics:0 "Shi Politics"
+shi_politics_desc:0 "We have been ruled by the Emperor and his advisor for several decades, and its absolute reign is starting to feign, those who want to return to our communist leanings and criminal elments are preparing to revolt, as well as the Brotherhood sympathisers want to join the Brotherhood of Steel, what shall we do?"
+
+shi_empire:0 "The Empire"
+shi_empire_desc:0 "The Emperor and his new advisor has reinserted their rule, and has crushed the rebels, and now begins to look outside San Francisco to the wasteland beyond."
+
+shi_empire_1:0 "Reinforce the Rule"
+shi_empire_1_desc:0 "The establishment of a offical secret police and propaganda has destroyed any movement the rebel factions in our population have, and now we are in a stable situation."
+
+shi_empire_2:0 "Absolute Rule"
+shi_empire_2_desc:0 "Secret Police raids on the remaining revolutionary elements will result in any future revolt being crushed for a long time, and we can begin our plans for the future."
+
+shi_empire_3:0 "Looking Outwards"
+shi_empire_3_desc:0 "With issues at home now solved, we can process on expansion much quicker, and allow our military to focus much more as well."
+
+shi_republic:0 "An End to Privilege"
+shi_republic_desc:0 "China once saved the people from those who sought to exploit the common man, this "Emperor" is nothing more than a computer trying to play god; its now time for the common citzen to revolt and fight for their own destiny!"
+
+shi_republic_1:0 "Empower Workers' Councils"
+shi_republic_1_desc:0 "Councils of workers are the real authority, no one man in absolute power, instead we will insert a truely democractically elected chairman to represent us, but will have no true power."
+
+shi_republic_2:0 "Destroy the Emperor"
+shi_republic_2_desc:0 "The Emperor is being protected by his remaining supporters in his refuge, he knows its time is nigh, now we shall destroy the remains of the imperial loyalists and liberate the Shi once and for all!"
+
+shi_republic_3:0 "Demand the Impossible"
+shi_republic_3_desc:0 "Now that we have our internal conflicts under control, we now should begins plans to liberate the rest of the wasteland, even with all the odds against us."
+
+shi_triad:0 "Adapt to the Times"
+shi_triad_desc:0 "We have seen our surroundings, Chems and other vices are in control of the wasteland, with controlling these vices can create a sphere of influence from New Reno to Vegas, its time we muscled in the trade."
+
+shi_triad_1:0 "Create the Syndicate"
+shi_triad_1_desc:0 "We can form our own criminal network to expand both our operations and invite New Reno or the Yakuza, as both are interested in a union but both dont want to join together."
+
+shi_triad_2:0 "Fix the Addictions"
+shi_triad_2_desc:0 "We can increase our production and construction by rewarding loyal workers with chems, and when they are hooked we can feed their addiction to create loyal workers for life."
+
+shi_triad_3:0 "Mercenary Army"
+shi_triad_3_desc:0 "With our additional profits in our hands, we can hire mercenaries to suppliment our forces, and their loyalty being maintained either with chems or the promise of an extended contract."
+
+shi_chapter:0 "Brotherhood Leanings"
+shi_chapter_desc:0 "The Brotherhood has had an outpost in the wasteland almost as long as we've been in San Francisco as well, the growing tensions have resulted in many just wondering why dont we align ourselves with the Brotherhood?"
+
+shi_chapter_1:0 "Establish offical Communications"
+shi_chapter_1_desc:0 "Previously communications were just by scrounging up to the outpost and seeing what was happening, if we are to align closer it is best if we make an offical communication line with the Brotherhood."
+
+shi_chapter_2:0 "Brotherhood Patrols"
+shi_chapter_2_desc:0 "Raiders and Vagrants have extended our small military to the edge, by allowing the Brotherhood to patrol the more problematic areas will allow us to prepare for future plans."
+
+shi_chapter_3:0 "The Shi Chapter"
+shi_chapter_3_desc:0 "The Shi and the Brotherhood have become so intertwined that there is little to no reason why we shouldn't join them?"
+
+shi_new_beijing:0 "New Beijing"
+shi_new_beijing_desc:0 "Many in our population feel we should rename the city of San Francisco to that more of following our culture, and upon reading an old Chinese map we have decided to rename the city to New Beijing."
+
+shi_beijing_jewel:0 "Beijing Jewel"
+shi_beijing_jewel_desc:0 "New Beijing will become a jewel of the wasteland, even to rival Vegas, Reno or Shady Sands, and our civilisation has reached a level of prosperity never achieved before."
+
+shi_industry:0 "Crimson Industry"
+shi_industry_desc:0 "As of right now, we have used trading to get most of the materials we need, this has been shown to be not without risk due to raiders and vagrants, it would be better if we just outright make our own goods."
+
+shi_civ_industry:0 "Civilian Industry"
+shi_civ_industry_desc:0 "We must expand upon building up factories to produce methods of construction and goods to settle our population, but also to allow as a means for trade."
+
+shi_civ_ind_2:0 "San Francisco's Roads"
+shi_civ_ind_2_desc:0 "By Modernising the roads of San Francisco we can bring goods to and from our city much quickly, allowing quicker construction for our growing nation."
+
+shi_military_industry:0 "Military Industry"
+shi_military_industry_desc:0 "We must expand upon building up factories to produce methods of building up armaments for our growing military."
+
+shi_mil_2:0 "Construction Techniques"
+shi_mil_2_desc:0 "Improving the method for our construction will allow us to build new production factories quicker."
+
+shi_ind_special_event:0 "Continued Development"
+shi_ind_special_event_desc:0 "It is time we further increased our industrial capability, through the expansion of both civilian and military industries will shall achieve this goal."
+
+shi_civ_ind_special_1:0 "Refurbish San Francisco"
+shi_civ_ind_special_1_desc:0 "We will have to fully rebuild San Francisco in our own image to make the city become reborn in our image."
+
+shi_civ_ind_special_2:0 "A New City"
+shi_civ_ind_special_2_desc:0 "Our reconstruction is complete, and San Francisco will rival other cities such as Shady Sands and New Vegas!"
+
+shi_mil_ind_special_1:0 "Arm San Francisco"
+shi_mil_ind_special_1_desc:0 "We have turned San Francisco into an armory, even the Brotherhood will feel jealousy when they marvel upon our production of advanced weaponry."
+
+shi_mil_ind_special_2:0 "A New War Machine"
+shi_mil_ind_special_2_desc:0 "San Francisco can now arm an army several times over if it wished too, and it will arm our armies with no end!"
+
+shi_expansion:0 "Wars of the Golden Dragon"
+shi_expansion_desc:0 "We have been maintained into our small city for far, far too long, its time we expanded our sphere of influence in the wasteland and become a force to be reckoned with."
+
+shi_demand_sanfran:0 "Demand Outer San Francisco"
+shi_demand_sanfran_desc:0 "The Brotherhood has held onto our rightful territory for too long, and have been picking it clean of resources we could use to improve our society, we can demand the rest of San Francisco in exchange for resources? (Work in Progress Focus)"
+
+shi_fortify_sanfran:0 "The Steel City"
+shi_fortify_sanfran_desc:0 "With thanks to our Brotherhood allies, we can fortify our city under the bunker method of defense employed by the Brotherhood, and we can hold onto territory much easier than before."
+
+shi_rebuild_sanfran:0 "Extend Reconstruction"
+shi_rebuild_sanfran_desc:0 "We will extend our reconstruction to our newly liberated areas to improve stability for those in those areas."
+
+shi_arroyo:0 "The Chosen One"
+shi_arroyo_desc:0 "The Chosen One had graced us many times, with the destruction of the Hubologists, the retrieval of the vertibird blueprints and wisdom to continue our prosperity, its time we repaid Arroyo and the Chosen One for their kindness."
+
+shi_repay_arroyo:0 "Repay Arroyo"
+shi_repay_arroyo_desc:0 "Arroyo, even with the GECK has very little tradeable resources, so we shall instead improve what they have and repay our debt to them."
+
+shi_arroyo_modernise:0 "A Debt of Gratitude"
+shi_arroyo_modernise_desc:0 "Arroyo deserves more protection from the wasteland, the current Arroyo police force just isnt enough to protect them from the dangers of the wasteland, alongside the dependency of a new Chosen One will result in them depending on one to solve all the issues, we can help subsidy their weak military by introducing new tactics and technology for them to use."
+
+shi_attack_bos:0 "End the Brotherhood"
+shi_attack_bos_desc:0 "The Brotherhood has been harrasing us for far too long, hoarding technology that could be used to rescue humanity from this status quo, we shall defeat them, and use their technology to dominate the surrounding powers of the wasteland."
+
+shi_rogue_bos:0 "Rogue Paladins"
+shi_rogue_bos_desc:0 "Several Paladins who have been turned away from the Brotherhood due to their views on the outsiders have come to us, trading information and saftey for asylum, and in term they will fight for us to spread our goals."
+
+shi_loot_losthills:0 "Loot the Bunker"
+shi_loot_losthills_desc:0 "Lost Hills Bunker has many technological marvels from across the wasteland, and a large store of power armour, by looting the bunker dry we both improve our stance and decimate the Brotherhood's image to the rest of the wasteland."
+
+shi_dismantle_brotherhood:0 "Dismantle the Brotherhood"
+shi_dismantle_brotherhood_desc:0 "The Brotherhood of Steel has no place in the future, and now we shall begin to remove them from history."
+
+shi_attack_newvic:0 "Attack New Victoria"
+shi_attack_newvic_desc:0 "New Victoria is isolated from the remains of the wasteland and no one will miss them, also New Victoria will act as a way to expand northwards for our Alaskan campaign."
+
+shi_modernise_newvic:0 "New Victoria Looting"
+shi_modernise_newvic_desc:0 "Vancouver Island doesnt have much in the terms of natural resources, but its still a thriving center of pre-war technology, and we can establish an outpost to loot these centers, including the coveted Victorian University."
+
+shi_exploit_newvic:0 "Victorian Resources"
+shi_exploit_newvic_desc:0 "Although New Victoria doesn't have much in terms of fuel and energy, we can scrap most of the useless junk thats been dumped and washed up on the island to use for our production lines."
+
+shi_attack_hadia:0 "Attack Hadia"
+shi_attack_hadia_desc:0 "Hadia is a small spattering of islands, full of isolated raiders no one will miss, so lets make dissapear from history."
+
+shi_modernise_hadia:0 "Hadian Prospecting"
+shi_modernise_hadia_desc:0 "Hadia is a backwater, and theres next to nothing of worth here, but due to its proximity to Alaska we can begin sending material and reports from the Pre-War battlefield."
+
+shi_exploit_hadia:0 "Hadian Resources"
+shi_exploit_hadia_desc:0 "Hadia was once a small storage ground for the US military, primarily for storing nuclear material from their power plants, although useless to them we can use this to crudely power our reactors back in San Francisco."
+
+shi_attack_broken:0 "Break the Broken Coast"
+shi_attack_broken_desc:0 "Scout teams and reports from our conquered territory has told us the areas holding the crucial resources from the Alaskan Pipeline are under the control of a bunch of backwards and inferior mutants, and they will be quickly overrun by our forces."
+
+shi_exploit_broken:0 "Mass Exploitation"
+shi_exploit_broken_desc:0 "Now with the mutants pushed out, we can harness the remaining resource spots they were selfishly wasting on tribal wreckages and the like."
+
+shi_exploit_broken_2:0 "Alaskan Pipeline"
+shi_exploit_broken_2_desc:0 "The Alaskan Pipeline is under our control, and we can use it fuel our new society, as well as continuing to remove any remains of resistance in our territories."

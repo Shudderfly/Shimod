@@ -1,0 +1,298 @@
+ideas = {
+    country = {
+        SHI_commandsub = {
+            picture = generic_navy_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            removal_cost = -1
+
+            modifier = {
+                max_planning = 0.15
+                planning_speed = 0.15
+            }
+        }
+
+        SHI_colonysub = {  
+            picture = generic_navy_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                monthly_population = 0.05
+                consumer_goods_factor = -0.03
+            } 
+        }
+
+        SHI_researchlab = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+              research_time_factor = -0.1
+            }
+        }
+
+        SHI_secretnavarro = {  
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+              research_time_factor = -0.05
+           }
+        }
+
+        SHI_chineselanguage = {  
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+              encryption_factor = 0.15
+              decryption_factor = -0.15
+           }
+        }
+
+        SHI_englishlanguage = {  
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+              encryption_factor = -0.15
+              decryption_factor = 0.15
+           }
+        }
+
+        SHI_americasadvantage = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+        equipment_bonus = {
+          infantry_equipment = {
+            build_cost_ic = -0.15 instant = yes
+            }
+          power_armor_equipment = {
+            build_cost_ic = -0.15 instant = yes
+            }
+          }
+        }
+
+        SHI_americatools = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+        equipment_bonus = {
+          infantry_equipment = {
+            build_cost_ic = -0.3 instant = yes
+            }
+          power_armor_equipment = {
+            build_cost_ic = -0.3 instant = yes
+        }
+      }
+    }
+
+        SHI_oldblueprints = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+      equipment_bonus = {
+        destroyer_equipment = {
+          build_cost_ic = -0.1
+        }
+      }
+    }
+
+    SHI_stealthsuits = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            equipment_bonus = {
+        spec_ops = {
+          soft_attack = 0.05
+          breakthrough = 0.05
+          defense = 0.05
+        }
+      }
+    }
+
+    SHI_polymericgear = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+            equipment_bonus = {
+            category_all_infantry = {
+            defense = 0.1
+          }
+        }
+      }
+
+      SHI_improvedsuits = {
+            picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            equipment_bonus = {
+        spec_ops = {
+          soft_attack = 0.05
+          breakthrough = 0.05
+          defense = 0.1
+        }
+      }
+    }
+
+    SHI_constructiontechniques = {
+    
+      picture = salvaged_military_industry
+      
+      allowed = {
+      }
+      
+      removal_cost = -1
+      
+      modifier = {
+        production_speed_buildings_factor = 0.1
+      }
+    }
+
+    SHI_mercenaryfaction = {
+    picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+      
+      removal_cost = -1
+      
+      modifier = {
+        army_core_defence_factor = 0.1
+      }
+    }
+
+    SHI_exploitslaves = {
+    picture = generic_research_bonus
+            
+            allowed = {
+                always = no
+            }
+      
+      removal_cost = -1
+      
+      modifier = {
+        production_speed_buildings_factor = 0.2
+      }
+    }
+
+     SHI_expandempire = {
+      picture = G
+      
+      allowed = {
+      }
+      
+      removal_cost = -1
+      
+      modifier = {
+        justify_war_goal_time = -0.2
+      }
+    }
+  }
