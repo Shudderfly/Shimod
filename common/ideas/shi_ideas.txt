@@ -295,4 +295,17 @@ ideas = {
         justify_war_goal_time = -0.2
       }
     }
-  }
+	SHI_bos_assit = {
+	picture = generic_research_bonus
+	allowed = {
+      }
+      
+    removal_cost = -1
+      
+    modifier = {
+		research_time_factor = -0.05
+		land_reinforcement_rate = 0.05
+		}
+	}
+}
+}
