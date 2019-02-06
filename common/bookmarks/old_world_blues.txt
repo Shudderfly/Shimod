@@ -188,9 +188,9 @@ bookmarks = {
 				vault_festus_1
 			}
 		}
-	     "SHI" = {
+	    "SHI" = {
 			minor = yes
-			history = "VLT_OWB_DESC"
+			history = "SHI_OWB_DESC"
 			ideology = ruler
 			ideas = {
 			}
