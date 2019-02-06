@@ -397,10 +397,12 @@ focus_tree = {
 		x = 24
 		y = 6
 		completion_reward = {
-        add_popularity = { 
+
+            add_popularity = { 
             ideology = elites
             popularity = 0.05 
 			}
+			add_ideas = SHI_noaddicts
 		}
 
 	}

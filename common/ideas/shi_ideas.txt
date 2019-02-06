@@ -17,8 +17,7 @@ ideas = {
                 max_planning = 0.15
                 planning_speed = 0.15
             }
-        }
-
+        }        
         SHI_colonysub = {  
             picture = generic_navy_bonus
             
@@ -283,7 +282,7 @@ ideas = {
       }
     }
 
-     SHI_expandempire = {
+    SHI_expandempire = {
       picture = G
       
       allowed = {
@@ -294,5 +293,23 @@ ideas = {
       modifier = {
         justify_war_goal_time = -0.2
       }
+    }
+	SHI_noaddicts = {
+        picture = VEG_Good_Business
+            
+        allowed = {
+            always = no
+        }
+
+        allowed_civil_war = {
+             always = yes
+        }
+            
+        removal_cost = -1
+
+        modifier = {
+			add_stability = 0.05
+            consumer_goods_factor = -.05
+        }
     }
   }
