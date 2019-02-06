@@ -47,3 +47,10 @@ create_country_leader = {
 	ideology = technocracy
 	traits = {}
 }
+create_country_leader = {
+	name = "Shi Emperor"
+	picture = "gfx/leaders/shi_emp.dds"
+	expire = "3000.1.1"
+	ideology = benevolent_dictatorship
+	traits = { }
+}
