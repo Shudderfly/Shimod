@@ -85,13 +85,25 @@ country_event = {
 			transfer_state = 132
 			transfer_state = 104
 		}
+		hidden_effect = {
+		473 = {
+			add_core_of = SHI
+			}
+		132 = {
+			add_core_of = SHI
+			}
+		104 = {
+			add_core_of = SHI
+			}
 		157 = {
 				add_resource = {
 					type = metal
 					amount = 60
 				}
+			}
 		}
 	}
+}
 		option = {
 		name = shi.5.b
 		SHI = {
