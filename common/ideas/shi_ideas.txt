@@ -311,7 +311,6 @@ ideas = {
             consumer_goods_factor = -0.05
         }
     }
-  }
 	SHI_bos_assit = {
 	picture = generic_research_bonus
 	allowed = {
@@ -326,4 +325,3 @@ ideas = {
 	}
 }
 }
->>>>>>> a836d83ef5d1d2fcde636d7298ba8e28782234b9
