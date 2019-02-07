@@ -103,7 +103,6 @@ country_event = {
 			}
 		}
 	}
-}
 		option = {
 		name = shi.5.b
 		SHI = {
@@ -125,9 +124,17 @@ country_event = {
 				type = annex_everything
 				target = BOS
 				}
+		473 = {
+			add_core_of = SHI
 			}
-
+		132 = {
+			add_core_of = SHI
+			}
+		104 = {
+			add_core_of = SHI
+			}
 		}
+	}
 	country_event = {
 	id = shi_startup.7
 	title = shi.7.t
