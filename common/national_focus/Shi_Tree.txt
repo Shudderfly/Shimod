@@ -507,6 +507,7 @@ focus_tree = {
 				set_state_name = "New Beijing"
 				add_political_power = 150
 				}
+				add_political_power = 150
 		}
 
 	}
