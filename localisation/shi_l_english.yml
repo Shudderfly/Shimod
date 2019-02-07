@@ -7,7 +7,7 @@ shi.0.b:0 "A Nuclear Submarine intended to Destroy America"
 shi.0.c:0 "A Command and Control Submarine intended to coordinate Attack Plans."
 ########################################################################################
 shi.1.t:0 "The Submarine Husk"
-shi.1.d:0 "The Submarine that had saved us from atomic fire was badly damaged from beaching upon San Francisco Bay, from there we had to make a choice, dismantle it or refurbish it?"
+shi.1.d:0 "The Submarine that had saved us from atomic fire was badly damaged from beaching upon San Franscisco Bay, from there we had to make a choice, dismantle it or refurbish it?"
 shi.1.a:0 "We turned the submarine into the fortified "Steel Palace""
 shi.1.b:0 "We refurbished the submarine into a hidden research lab"
 ########################################################################################
@@ -18,6 +18,15 @@ shi.2.b:0 "We must adapt to our surroundings"
 ########################################################################################
 SHI_OWB_DESC:0 "Having descended from the Crewmen of a Chinese submarine beached on the shores of San Franscisco who later settled in the ruins of Chinatown, the Shi are a moderately technologically advanced faction that tend to keep to themselves, however, with the wasteland erupting into conflict, this tiny nation will be met with a choice between maintaining this splendid isolation, or intervening in wasteland politics."
 EMP_DESC:O "Having been moved from the sub to the base in Chinatown The Emperor controls the Shi from the background."
+########################################################################################
+shi.5.t:O "The Shi ask for Outer San Franscisco"
+shi.5.desc:O "The Shi have told us they wish to expand into Outer San Franscisco rejecting saying no will likely result in war"
+shi.5.a:O "Tell them to go ahead"
+shi.5.b:O "We will die before letting them take it"
+########################################################################################
+shi.6.t: "The Brotherhood has Declined our offer"
+shi.6.desc: "The Brotherhood has declined our generous offer"
+shi.6.a: "Take them down"
 ########################################################################################
 shi.7.t:0 "The Shi wish to use Sixes as a naval port."
 shi.7.d:0 "The Shi have told us they wish to use the state of Sixes as a naval port, saying no would most likely result in an invasion."
