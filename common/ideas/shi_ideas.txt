@@ -320,7 +320,7 @@ ideas = {
       
     modifier = {
 		research_time_factor = -0.05
-
+        land_reinforcement_rate = 0.05
 		}
 	}
 }
