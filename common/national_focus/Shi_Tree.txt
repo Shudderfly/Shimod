@@ -694,6 +694,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 3
+		completion_reward = {
+        add_war_support = 0.25
+	    }
 
 	}
 	focus = {
@@ -709,7 +712,7 @@ focus_tree = {
 		BOS = {
 			country_event = { id = shi_startup.5 }	
 		}
-	}
+	    }
 }
 	focus = {
         id = shi_fortify_sanfran
