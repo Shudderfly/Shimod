@@ -26,8 +26,6 @@ shi.8.a:0 "To war!"
 SHI_OWB_DESC:0 "Having descended from the Crewmen of a Chinese submarine beached on the shores of San Franscisco who later settled in the ruins of Chinatown, the Shi are a moderately technologically advanced faction that tend to keep to themselves, however, with the wasteland erupting into conflict, this tiny nation will be met with a choice between maintaining this splendid isolation, or intervening in wasteland politics."
 EMP_DESC:O "Having been moved from the sub to the base in Chinatown The Emperor controls the Shi from the background."
 ########################################################################################
-<<<<<<< HEAD
-=======
 shi.5.t:O "The Shi ask for Outer San Franscisco"
 shi.5.desc:O "The Shi have told us they wish to expand into Outer San Franscisco rejecting saying no will likely result in war"
 shi.5.a:O "Tell them to go ahead"
