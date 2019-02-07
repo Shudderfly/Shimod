@@ -111,7 +111,6 @@ country_event = {
 				}
 			}
 		}
-	}
 country_event = {
 	id = shi_startup.6
 	title = shi.6.t
