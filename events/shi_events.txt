@@ -107,11 +107,10 @@ country_event = {
 		name = shi.5.b
 		SHI = {
 		country_event = {
-			{ shi_startup.6 }
+			 shi_startup.6 }
 				}
 			}
 		}
-	}
 country_event = {
 	id = shi_startup.6
 	title = shi.6.t
