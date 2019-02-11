@@ -1,0 +1,242 @@
+﻿add_namespace = shi_startup
+
+country_event = {
+    id = shi_startup.2
+    title = shi.0.t
+    desc = shi.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+		option = {
+    name = shi.0.a
+    add_manpower = 500
+    add_ideas = SHI_colonysub
+	}
+		option = {
+    name = shi.0.b
+			163 = {
+				add_resource = {
+					type = electricity
+					amount = 30
+				}
+				add_resource = {
+					type = fuel
+					amount = 15
+				}
+			}
+		}	
+    	option = {
+    name = shi.0.c
+    add_ideas = SHI_commandsub
+    }
+}
+
+country_event = {
+    id = shi_startup.3
+    title = shi.1.t
+    desc = shi.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+		option = {
+    name = shi.1.a
+    163 = {
+		add_building_construction = {
+			type = bunker
+			level = 4
+			province = {
+			id = 1038
+				}
+			}
+		}
+	}
+    	option = {
+    name = shi.1.b
+    add_ideas = SHI_researchlab
+    }
+}
+
+country_event = {
+    id = shi_startup.4
+    title = shi.2.t
+    desc = shi.2.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+    	option = {
+    name = shi.2.a
+    add_ideas = SHI_chineselanguage
+	}
+    	option = {
+    name = shi.2.b
+    add_ideas = SHI_englishlanguage
+    }
+}
+country_event = {
+	id = shi_startup.7
+	title = shi.7.t
+	desc = shi.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		ai_chance = { factor = 100 }
+		name = shi.7.a
+         SHI = { 			transfer_state = 32
+		 }
+		}
+		option = {
+		   name = shi.7.b
+		   SHI = {
+			     country_event = { id = shi_startup.8 }	
+		   }
+		}
+}
+country_event = {
+	id = shi_startup.6
+	title = shi.6.t
+	desc = shi.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		name = shi.6.a
+		create_wargoal = {
+				type = annex_everything
+				target = BOS
+				}
+		473 = {
+			add_core_of = SHI
+			}
+		132 = {
+			add_core_of = SHI
+			}
+		104 = {
+			add_core_of = SHI
+			}
+		}
+}
+country_event = {
+	id = shi_startup.8
+	title = shi.8.t
+	desc = shi.8.d
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		name = shi.8.a
+             	create_wargoal = {
+				    type = annex_everything
+				    target = ARR
+				}
+		}
+}
+country_event = {
+	id = shi_startup.5
+	title = shi.5.t
+	desc = shi.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = shi.5.a
+			SHI = {
+			transfer_state = 473
+			transfer_state = 132
+			transfer_state = 104
+		}
+		hidden_effect = {
+		473 = {
+			add_core_of = SHI
+			}
+		132 = {
+			add_core_of = SHI
+			}
+		104 = {
+			add_core_of = SHI
+			}
+		157 = {
+				add_resource = {
+					type = metal
+					amount = 60
+				}
+			}
+		country_event = { id = shi_startup.9 }
+		}
+	}
+	option = {
+		name = shi.5.b
+		SHI = {
+		  country_event = { id = shi_startup.6 }
+		}
+	}
+}
+country_event = {
+	id = shi_startup.9
+	title = shi_startup.9.t
+	desc = shi_startup.9.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = shi_startup.9.a
+		NCN = { country_event = { id = shi_startup.10 } }
+	}
+	option = {
+		name = shi_startup.9.b
+		BOS = { country_event = { id = shi_startup.13 } }
+	}
+}
+country_event = {
+	id = shi_startup.10
+	title = shi_startup.10.t
+	desc = shi_startup.10.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = shi_startup.10.a
+		random_list = { 85 = { SHI = { country_event = { id = shi_startup.11 days = 1 } } } 15 = { SHI = { country_event = { id = shi_startup.12 days = 1 } } } }
+	}
+}
+country_event = {
+	id = shi_startup.11
+	title = shi_startup.11.t
+	desc = shi_startup.11.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = shi_startup.11.a
+		SHI = { add_ideas = SHI_tv }
+		NCN = { add_ideas = SHI_tv }
+		}
+	}
+country_event = {
+	id = shi_startup.12
+	title = shi_startup.12.t
+	desc = shi_startup.12.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = shi_startup.12.a
+	 SHI = { add_ideas = SHI_tv_fail
+		}
+	}
+}
+country_event = {
+	id = shi_startup.13
+	title = shi_startup.13.t
+	desc = shi_startup.13.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = shi_startup.13.a
+	random_list = { 85 = { SHI = { country_event = { id = shi_startup.14 days = 1 } } 15 = { SHI = { country_event = { id = shi_startup.12 days = 1 } } } } }
+	}
+}
+country_event = {
+	id = shi_startup.14
+	title = shi_startup.14.t
+	desc = shi_startup.14.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = shi_startup.14.a
+		SHI = { add_ideas = SHI_tv }
+		BOS = { add_ideas = SHI_tv }
+	}
+}
