@@ -1,0 +1,21 @@
+shi_decisions = {
+    farnsworth_expedition = {
+
+        icon = generic_independence
+        cost = 25
+         fire_only_once = no
+
+        ai_will_do = {
+            factor = 45
+        }
+        available = {
+            SHI = {
+                owns_state = 163
+            }
+        }
+        complete_effect = {
+            country_event = shi_startup.9
+        }
+
+    }
+}
