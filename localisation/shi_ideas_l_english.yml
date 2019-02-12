@@ -36,7 +36,7 @@
  SHI_improvedsuits_desc:0 ""
 
  SHI_constructiontechniques:0 "Construction Techniques"
- SHI_constructiontechniques_desc:0
+ SHI_constructiontechniques_desc:0 "TECHNIQUE!"
 
  SHI_mercenaryfaction:0 "Mercenary Protection"
  SHI_mercenaryfaction_desc:0 ""
@@ -48,9 +48,10 @@
  SHI_expandempire_desc:0 ""
  
  shi_noaddicts:0 "No addicts"
- shi_noaddicts:0 "With Copious amounts of Fixer, wasteland councilling, and family guilt-tripping, we've managed to entirely cure our society of drug addicts."
+ shi_noaddicts_desc:0 "With Copious amounts of Fixer, wasteland councilling, and family guilt-tripping, we've managed to entirely cure our society of drug addicts."
  
- SHI_bos_assit:0 "BOS assistance"
+ SHI_bos_assit:0 "Mutual Assistance"
 
+ SHI_tv_fail: "Shi tv failure"
  
-
+ SHI_tv: "Shi TV"
